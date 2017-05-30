@@ -1,5 +1,5 @@
 package com.example.may30_c;
-
+// C반 216230099 이한솔
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
