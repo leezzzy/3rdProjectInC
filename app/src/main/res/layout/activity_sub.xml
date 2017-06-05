@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context="com.example.may30_c.SubActivity">
 
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="아무 말이나 입력하세요. 영어로만 입력됩니다." />
+        <!--EditText안에 원래 들어 있는 회색의 글자는 android:hint=””로 지정-->
+        <Button
+            android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="입력"
+            android:layout_gravity="center"/>
+            <!--Button 내부에 쓰여있는 글자) android:text=””-->
+            <!--텍스트의 크기 조절) android:textSize=””-->
+            <!--가운데 정렬) android:layout_gravity="center"-->
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+            <!--텍스트 스타일) android:textStyle=””-->
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
